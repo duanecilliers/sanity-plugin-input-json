@@ -24,8 +24,7 @@ export const jsonInputSchema = defineType({
   ],
   components: {
     input: JsonObjectInput,
-    // TODO: change iframe preview. It auto scrolls to the embed and is annoying
-    // preview: IframePreview as any, // TODO: fix this type
+    // preview: IframePreview as any, // add preview component
   },
   preview: {
     select: {
