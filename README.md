@@ -1,3 +1,5 @@
+> This is a **Sanity Studio v3** plugin.
+
 # sanity-plugin-input-json
 
 > Simple JSON editor for Sanity Studio v3
@@ -45,3 +47,11 @@ with default configuration for build & watch scripts.
 
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 on how to run this plugin with hotreload in the studio.
+
+
+### Release new version
+
+Run ["CI & Release" workflow](TODO/actions/workflows/main.yml).
+Make sure to select the main branch and check "Release new version".
+
+Semantic release will only release on configured branches, so it is safe to run release on any branch.
