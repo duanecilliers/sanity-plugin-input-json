@@ -19,8 +19,6 @@ interface InputJsonConfig {
  * ```
  */
 export const inputJson = definePlugin<InputJsonConfig | void>((config = {}) => {
-  // eslint-disable-next-line no-console
-  console.log('hello from sanity-plugin-input-json')
   return {
     name: 'sanity-plugin-input-json',
     schema: {
