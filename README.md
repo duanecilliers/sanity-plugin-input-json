@@ -1,6 +1,8 @@
 # sanity-plugin-input-json
 
-> This is a **Sanity Studio v3** plugin.
+> Simple JSON editor for Sanity Studio v3
+
+Validates JSON on change and auto saves a serialised JSON string when valid.
 
 ## Installation
 
@@ -21,6 +23,16 @@ export default defineConfig({
   plugins: [inputJson({})],
 })
 ```
+
+## Screenshots
+
+### Valid JSON
+
+![screenshot](screenshot-valid.png)
+
+### Invalid JSON
+
+![screenshot](screenshot-invalid.png)
 
 ## License
 
