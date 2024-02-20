@@ -1,7 +1,7 @@
 {
   "name": "sanity-plugin-input-json",
   "version": "1.0.0",
-  "description": "Edit JSON in Sanity",
+  "description": "Simple JSON editor for Sanity Studio v3",
   "keywords": [
     "sanity",
     "sanity-plugin"
