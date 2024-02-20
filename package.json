@@ -2,6 +2,10 @@
   "name": "sanity-plugin-input-json",
   "version": "1.0.0",
   "description": "Simple JSON editor for Sanity Studio v3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duanecilliers/sanity-plugin-input-json"
+  },
   "keywords": [
     "sanity",
     "sanity-plugin"
