@@ -17,13 +17,13 @@ export function JsonInput(props: JsonInputProps) {
   )
 
   const handleSerializeError = (e: Error) => {
-    console.info(e)
+    // console.info(e)
   }
 
   // return <TextArea {...props} value={json} onChange={handleChange} />
   return (
     <PlainJsonEditor
-      value={JSON.parse(json)}
+      value={json ? JSON.parse(json) : undefined}
       onChange={handleChange}
       // onSubmit={handleSubmit}
       onSerializeError={handleSerializeError}
