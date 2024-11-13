@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/duanecilliers/sanity-plugin-input-json/compare/v1.0.0...v1.0.1) (2024-11-13)
+
+### Bug Fixes
+
+- safely parse json ([605f3f2](https://github.com/duanecilliers/sanity-plugin-input-json/commit/605f3f2d7c0df7cf7ddec4f1f3ee2cb9feacd9f6))
+
 ## 1.0.0 (2024-02-20)
 
 ### Bug Fixes

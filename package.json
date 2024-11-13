@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-input-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple JSON editor for Sanity Studio v3",
   "repository": {
     "type": "git",
